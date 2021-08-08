@@ -1,0 +1,431 @@
+.homeimage
+{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/one.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.enter {
+  margin-top: 600px;
+  margin-left: 750px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.menuimage
+{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/2.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+nav a {
+  font-size: 40px;
+  padding-top: 42px;
+  display: block;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+}
+
+.aboutimage
+{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/3.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.playlistimage
+{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/5.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.mapimage
+{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/6.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.learnhistoryimage
+{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/18.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.museumsoneimage{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/museumsone.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.museumstwoimage{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/museumstwo.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.museumsthreeimage{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/museumsthree.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.museumsfourimage{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/museumsfour.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.museumsfiveimage{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/museumsfive.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.museumssiximage{
+    height: 700px;
+    width: 102%;
+    background-image: url("./images/museumssix.png");
+    background-size: cover;
+    margin: -10px -10px -10px -10px;
+}
+
+.exhibitionsimage {
+  height: 700px;
+  width: 102%;
+  background-image: url("./images/hall.png");
+  background-size: cover;
+  margin: -10px -10px -10px -10px;
+  min-width: 1280px;
+  min-height: 700px;
+}
+
+.exhibitionssection {
+  padding-left: 315px;
+  padding-top: 295px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.exhibitions {
+  height: 200px;
+  width: 12%;
+  padding: 2px;
+  opacity: .5;
+}
+
+.exhibitionsonesection {
+  padding-left: 400px;
+  padding-top: 295px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.exhibitionsone {
+  height: 200px;
+  width: 12%;
+  padding: 2px;
+  opacity: .5;
+}
+
+.exhibitionstwosection {
+  padding-left: 540px;
+  padding-top: 295px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.exhibitionstwo {
+  height: 200px;
+  width: 12%;
+  padding: 2px;
+  opacity: .5;
+}
+
+.exhibitionsthreesection {
+  padding-left: 370px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.exhibitionsthree {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.exhibitionsfoursection {
+  padding-left: 370px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.exhibitionsfour {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.exhibitionsfivesection {
+  padding-left: 530px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.exhibitionsfive {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.exhibitionssixsection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.exhibitionssix {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.camcaponesection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.camcapone {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.camcaptwosection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.camcaptwo {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.camcapthreesection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.camcapthree {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.camcapfoursection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.camcapfour {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.camcapfivesection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.camcapfive {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.camcapsixsection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.camcapsix {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.camcapsevensection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.camcapseven {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.btafonesection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.btafone {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.btaftwosection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.btaftwo {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.btafthreesection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.btafthree {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.btaffoursection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.btaffour {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.btaffivesection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.btaffive {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.btafsixsection {
+  padding-left: 450px;
+  padding-top: 285px;
+  min-width: 1280px;
+  max-width: 1280px;
+}
+
+.btafsix {
+  height: 200px;
+  width: 12%;
+  padding: 10px;
+  opacity: .5;
+}
+
+.singles {
+  height: 700px;
+  width: 102%;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 25px;
+  color: white;
+  padding: 10px;
+}
