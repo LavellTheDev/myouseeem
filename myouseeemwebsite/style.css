@@ -7,6 +7,8 @@ html{
 
 body{
   font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
 }
 
 .homeimage
@@ -36,6 +38,10 @@ body{
   background-color: #9900FF;
 }
 
+.enterClicked{
+  align-self: flex-end;
+  padding-bottom: 1em;
+}
 /* .enter:active{
   background-color: #9900FF;
   box-shadow: 0 2px #666;
@@ -45,7 +51,7 @@ body{
 
 .menuimage
 {
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/2.png");
     background-size: cover;
@@ -63,7 +69,7 @@ nav a {
 
 .aboutimage
 {
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/3.png");
     background-size: cover;
@@ -72,7 +78,7 @@ nav a {
 
 .playlistimage
 {
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/5.png");
     background-size: cover;
@@ -81,7 +87,7 @@ nav a {
 
 .mapimage
 {
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/6.png");
     background-size: cover;
@@ -90,7 +96,7 @@ nav a {
 
 .learnhistoryimage
 {
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/18.png");
     background-size: cover;
@@ -98,7 +104,7 @@ nav a {
 }
 
 .museumsoneimage{
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/museumsone.png");
     background-size: cover;
@@ -106,7 +112,7 @@ nav a {
 }
 
 .museumstwoimage{
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/museumstwo.png");
     background-size: cover;
@@ -114,7 +120,7 @@ nav a {
 }
 
 .museumsthreeimage{
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/museumsthree.png");
     background-size: cover;
@@ -122,7 +128,7 @@ nav a {
 }
 
 .museumsfourimage{
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/museumsfour.png");
     background-size: cover;
@@ -130,7 +136,7 @@ nav a {
 }
 
 .museumsfiveimage{
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/museumsfive.png");
     background-size: cover;
@@ -138,7 +144,7 @@ nav a {
 }
 
 .museumssiximage{
-    height: 700px;
+    height: 100vh;
     width: 102%;
     background-image: url("./images/museumssix.png");
     background-size: cover;
@@ -146,13 +152,13 @@ nav a {
 }
 
 .exhibitionsimage {
-  height: 700px;
-  width: 102%;
+  height: 100vh;
+  width: 100vw;
   background-image: url("./images/hall.png");
   background-size: cover;
   margin: -10px -10px -10px -10px;
   min-width: 1280px;
-  min-height: 700px;
+  min-height: 100vh;
 }
 
 .exhibitionssection {
@@ -436,7 +442,7 @@ nav a {
 }
 
 .singles {
-  height: 700px;
+  height: 100vh;
   width: 102%;
 }
 
