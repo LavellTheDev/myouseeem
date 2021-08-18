@@ -51,26 +51,36 @@ body{
 
 .menuimage
 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/2.png");
     background-size: cover;
-    margin: -10px -10px -10px -10px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 1em;
+  height: 100%;
 }
 
 nav a {
-  font-size: 40px;
-  padding-top: 42px;
-  display: block;
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bold;
   text-decoration: none;
   color: white;
-  text-align: center;
 }
 
 .aboutimage
 {
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/3.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -79,7 +89,7 @@ nav a {
 .playlistimage
 {
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/5.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -88,7 +98,7 @@ nav a {
 .mapimage
 {
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/6.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -97,7 +107,7 @@ nav a {
 .learnhistoryimage
 {
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/18.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -105,7 +115,7 @@ nav a {
 
 .museumsoneimage{
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/museumsone.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -113,7 +123,7 @@ nav a {
 
 .museumstwoimage{
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/museumstwo.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -121,7 +131,7 @@ nav a {
 
 .museumsthreeimage{
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/museumsthree.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -129,7 +139,7 @@ nav a {
 
 .museumsfourimage{
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/museumsfour.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -137,7 +147,7 @@ nav a {
 
 .museumsfiveimage{
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/museumsfive.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -145,7 +155,7 @@ nav a {
 
 .museumssiximage{
     height: 100vh;
-    width: 102%;
+    width: 100vw;
     background-image: url("./images/museumssix.png");
     background-size: cover;
     margin: -10px -10px -10px -10px;
@@ -169,10 +179,13 @@ nav a {
 }
 
 .exhibitions {
+  background: rgba(39,62,84,0.82);
+  position: relative;
   height: 200px;
   width: 12%;
   padding: 2px;
   opacity: .5;
+  z-index: 2;
 }
 
 .exhibitionsonesection {
@@ -443,7 +456,7 @@ nav a {
 
 .singles {
   height: 100vh;
-  width: 102%;
+  width: 100vw;
 }
 
 .bottom-left {
