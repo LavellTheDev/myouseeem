@@ -7,6 +7,7 @@ html{
 
 body{
   font-size: 1.2rem;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
 }
@@ -56,25 +57,67 @@ body{
     flex-direction: column;
     height: 100vh;
     width: 100vw;
-    background-image: url("./images/2.png");
+    background-image: url("./images/halls/middle.png");
     background-size: cover;
+    overflow: hidden;
 }
 
 .nav{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-top: 1em;
+  /* margin-top: 1em; */
   height: 100%;
+  width: 100%;
 }
 
 nav a {
   display: flex;
   justify-content: center;
+  padding: 15px;
   font-size: 2.5rem;
   font-weight: bold;
   text-decoration: none;
   color: white;
+}
+
+nav ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+width: 100%;
+}
+
+nav li{
+  /* border: 1px solid black; */
+  height: 80px;
+  width: 100%;
+}
+
+li:nth-child(1){
+  background-color: rgb(170,170,170,0.7);
+}
+
+li:nth-child(2){
+  background-color: rgba(146,133,171, 0.7);
+}
+li:nth-child(3){
+  background-color: rgba(159,179,150,0.7);
+}
+li:nth-child(4){
+  background-color: rgba(222,196,181,0.7);
+}
+li:nth-child(5){
+  background-color: rgba(156,198,200,0.7);
+}
+li:nth-child(6){
+  background-color: rgba(179,129,127,0.7);
+}
+li:nth-child(7){
+  background-color: rgba(143,135,106,0.7);
+}
+li:nth-child(8){
+  background-color: rgba(113,113,113,0.7);
 }
 
 .aboutimage
@@ -104,14 +147,6 @@ nav a {
     margin: -10px -10px -10px -10px;
 }
 
-.learnhistoryimage
-{
-    height: 100vh;
-    width: 100vw;
-    background-image: url("./images/18.png");
-    background-size: cover;
-    margin: -10px -10px -10px -10px;
-}
 
 .museumsoneimage{
     height: 100vh;
@@ -161,67 +196,176 @@ nav a {
     margin: -10px -10px -10px -10px;
 }
 
-.exhibitionsimage {
+.exhibitionsimage, .specialExhibitionsImage, .learnhistoryimage {
   height: 100vh;
   width: 100vw;
-  background-image: url("./images/hall.png");
   background-size: cover;
-  margin: -10px -10px -10px -10px;
-  min-width: 1280px;
-  min-height: 100vh;
 }
 
-.exhibitionssection {
-  padding-left: 315px;
-  padding-top: 295px;
-  min-width: 1280px;
-  max-width: 1280px;
+/*These three cover the exhibitions background images
+for all 3 major nav pages*/
+.exhibitionsimage{
+  background-image: url("./images/halls/left.png");
 }
 
-.exhibitions {
-  background: rgba(39,62,84,0.82);
+.specialExhibitionsImage{
+  background-image: url("./images/halls/middle.png");
+}
+
+.learnhistoryimage
+{
+    background-image: url("./images/halls/right.png");
+}
+
+
+.exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
+ .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 45%;
+}
+
+.specialExhibitionsSection{
+  width: 25%;
+}
+
+/*All styling for exhibitionsonesection*/
+.exhibitionsonesection{
+
+}
+/*May need to delete this ^^ i think it controls exhibitionspageone*/
+
+/*vvv created for exhibitionspageone**/
+.firstGalleryRoom{
+  width: 40%;
+}
+/*^^^ created for exhibitionspageone*/
+
+
+/*This will be added to all pages, just a test*/
+.card{
+  background-color: #fff;
+  width: 50px;
+  height: 25px;
+  margin: auto;
+}
+
+/*End of styling for exhibitionsonesection*/
+.exhibitionstwosection{
+  width: 100%;
+  justify-content: center;
+}
+
+/*THIS WILL BE REMOVED ONCE I ADD IMAGE*/
+.placeHolderImage{
+  margin-left: 8.5em;
+  margin-top: 14em;
+  height: 160px;
+  width: 500px;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.placeHolderText{
+  color: white;
+  text-align: center;
+}
+/*THIS WILL BE REMOVED ONCE I ADD IMAGE*/
+
+
+.images, .imagesSpecialEx, .imagesFirstGallery {
+  height: 150px;
+  width: auto;
   position: relative;
+  top: 14.5em;
+  left: 14.2em;
+  text-align: center;
+}
+
+.imagesSpecialEx{
+  left: 25em;
+}
+
+.imagesFirstGallery{
+  top: 13.5em;
+  left: 15.8em;
+}
+
+.exhibitions, .exhibitionsone, .exhibitionstwo, .exhibitionsGalleryOne {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.exhibitionsGalleryOne{
+  margin-bottom: .2em;
+}
+.overlay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.25s;
+}
+
+.overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.overlay:hover{
+  opacity: 1;
+}
+
+.overlay:hover > * {
+  transform: translateY(0);
+}
+
+
+/* .exhibitionsonesection {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width: 45%;
+} */
+
+/* .exhibitionsone {
   height: 200px;
   width: 12%;
   padding: 2px;
   opacity: .5;
-  z-index: 2;
-}
+} */
 
-.exhibitionsonesection {
-  padding-left: 400px;
-  padding-top: 295px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-.exhibitionsone {
-  height: 200px;
-  width: 12%;
-  padding: 2px;
-  opacity: .5;
-}
-
-.exhibitionstwosection {
+/* .exhibitionstwosection {
   padding-left: 540px;
   padding-top: 295px;
   min-width: 1280px;
   max-width: 1280px;
-}
+} */
 
-.exhibitionstwo {
+/* .exhibitionstwo {
   height: 200px;
   width: 12%;
   padding: 2px;
   opacity: .5;
-}
+} */
 
-.exhibitionsthreesection {
+/* .exhibitionsthreesection {
   padding-left: 370px;
   padding-top: 285px;
   min-width: 1280px;
   max-width: 1280px;
-}
+} */
 
 .exhibitionsthree {
   height: 200px;
@@ -455,7 +599,7 @@ nav a {
 }
 
 .singles {
-  height: 100vh;
+  height: 100%;
   width: 100vw;
 }
 
