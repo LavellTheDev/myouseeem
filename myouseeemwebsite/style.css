@@ -219,7 +219,7 @@ for all 3 major nav pages*/
 
 
 .exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
- .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom{
+ .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom{
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -242,13 +242,27 @@ for all 3 major nav pages*/
 }
 /*^^^ created for exhibitionspageone*/
 
+.secondGalleryRoom{
+  width: 40%;
+}
+
+.sixthGalleryRoom{
+  justify-content: space-around;
+}
+
 
 /*This will be added to all pages, just a test*/
-.card{
+.card, .cardPageTwo{
   background-color: #fff;
   width: 50px;
   height: 25px;
   margin: auto;
+}
+
+.cardPageTwo{
+  width: 175px;
+  height: 75px;
+  margin-top: 3em;
 }
 
 /*End of styling for exhibitionsonesection*/
@@ -274,7 +288,7 @@ for all 3 major nav pages*/
 /*THIS WILL BE REMOVED ONCE I ADD IMAGE*/
 
 
-.images, .imagesSpecialEx, .imagesFirstGallery {
+.images, .imagesSpecialEx, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesSixthGallery {
   height: 150px;
   width: auto;
   position: relative;
@@ -291,6 +305,30 @@ for all 3 major nav pages*/
   top: 13.5em;
   left: 15.8em;
 }
+
+
+.imagesSecondGallery{
+  height: 175px;
+  top: 13.5em;
+  left: 21em;
+}
+
+.imagesSecondGallery h2{
+  color: #8E7CC3;
+  font-size: 2.4em;
+  margin-top: 1.5em;
+}
+
+.imagesThirdGallery, .imagesFourthGallery{
+  left: 21em;
+  top: 13.5em;
+}
+
+.imagesSixthGallery{
+ top: 13.5em;
+ left: 23em;
+}
+
 
 .exhibitions, .exhibitionsone, .exhibitionstwo, .exhibitionsGalleryOne {
   display: block;
@@ -367,7 +405,7 @@ for all 3 major nav pages*/
   max-width: 1280px;
 } */
 
-.exhibitionsthree {
+/* .exhibitionsthree {
   height: 200px;
   width: 12%;
   padding: 10px;
@@ -414,7 +452,7 @@ for all 3 major nav pages*/
   width: 12%;
   padding: 10px;
   opacity: .5;
-}
+} */
 
 .camcaponesection {
   padding-left: 450px;
@@ -423,11 +461,10 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.camcapone {
-  height: 200px;
-  width: 12%;
+.camcapone, .camcaptwo, .camcapthree, .camcapfour, .camcapfive, .camcapsix, .camcapseven  {
+  height: 160px;
+  width: auto;
   padding: 10px;
-  opacity: .5;
 }
 
 .camcaptwosection {
@@ -437,12 +474,6 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.camcaptwo {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .camcapthreesection {
   padding-left: 450px;
@@ -451,12 +482,6 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.camcapthree {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .camcapfoursection {
   padding-left: 450px;
@@ -465,12 +490,7 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.camcapfour {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
+
 
 .camcapfivesection {
   padding-left: 450px;
@@ -479,12 +499,6 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.camcapfive {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .camcapsixsection {
   padding-left: 450px;
@@ -493,12 +507,7 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.camcapsix {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
+
 
 .camcapsevensection {
   padding-left: 450px;
@@ -507,12 +516,6 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.camcapseven {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .btafonesection {
   padding-left: 450px;
