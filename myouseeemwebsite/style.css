@@ -219,7 +219,7 @@ for all 3 major nav pages*/
 
 
 .exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
- .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom{
+ .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6{
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -247,6 +247,18 @@ for all 3 major nav pages*/
 }
 
 .sixthGalleryRoom{
+  justify-content: space-around;
+}
+
+.camcapGalleryRoom1{
+  justify-content: space-around;
+}
+
+.camcapGalleryRoom4{
+  width: 42.5%;
+}
+
+.camcapGalleryRoom6{
   justify-content: space-around;
 }
 
@@ -288,7 +300,7 @@ for all 3 major nav pages*/
 /*THIS WILL BE REMOVED ONCE I ADD IMAGE*/
 
 
-.images, .imagesSpecialEx, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesSixthGallery {
+.images, .imagesSpecialEx, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7 {
   height: 150px;
   width: auto;
   position: relative;
@@ -327,6 +339,22 @@ for all 3 major nav pages*/
 .imagesSixthGallery{
  top: 13.5em;
  left: 23em;
+}
+
+.camcapImagesRoom4{
+  left: 20.2em;
+  top: 13.5em;
+}
+
+.camcapImagesRoom6{
+  left:20em;
+  top: 13.5em;
+}
+
+.camcapImagesRoom7{
+  height: 160px;
+  left: 33em;
+  top: 13.3em;
 }
 
 
@@ -454,7 +482,7 @@ for all 3 major nav pages*/
   opacity: .5;
 } */
 
-.camcaponesection {
+/* .camcaponesection {
   padding-left: 450px;
   padding-top: 285px;
   min-width: 1280px;
@@ -514,7 +542,7 @@ for all 3 major nav pages*/
   padding-top: 285px;
   min-width: 1280px;
   max-width: 1280px;
-}
+} */
 
 
 .btafonesection {
@@ -524,26 +552,18 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.btafone {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
+.btafone, .btaftwo, .btafthree, .btaffour, .btaffive, .btafsix {
+  height: 150px;
+  width: auto;
 }
 
-.btaftwosection {
+/* .btaftwosection {
   padding-left: 450px;
   padding-top: 285px;
   min-width: 1280px;
   max-width: 1280px;
 }
 
-.btaftwo {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .btafthreesection {
   padding-left: 450px;
@@ -552,12 +572,7 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.btafthree {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
+
 
 .btaffoursection {
   padding-left: 450px;
@@ -566,12 +581,6 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.btaffour {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .btaffivesection {
   padding-left: 450px;
@@ -580,26 +589,20 @@ for all 3 major nav pages*/
   max-width: 1280px;
 }
 
-.btaffive {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .btafsixsection {
   padding-left: 450px;
   padding-top: 285px;
   min-width: 1280px;
   max-width: 1280px;
+} */
+
+.infoGraph{
+  width: 70%;
+  height: 170px;
+  background-color: white;
 }
 
-.btafsix {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
 
 .singles {
   height: 100%;
