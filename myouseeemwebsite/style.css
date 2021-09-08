@@ -219,7 +219,7 @@ for all 3 major nav pages*/
 
 
 .exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
- .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6, .btafGalleryRoom1{
+ .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6, .btafGalleryRoom1, .btafGalleryRoom2, .btafGalleryRoom6{
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -267,6 +267,15 @@ for all 3 major nav pages*/
   width: 100%;
 }
 
+  .btafGalleryRoom2{
+    width: 40%;
+    justify-content: space-around;
+  }
+
+  .btafGalleryRoom6{
+    margin-left: 2em;
+    width: 44%;
+  }
 
 /*This will be added to all pages, just a test*/
 .card, .cardPageTwo{
