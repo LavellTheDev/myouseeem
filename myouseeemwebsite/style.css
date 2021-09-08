@@ -219,7 +219,7 @@ for all 3 major nav pages*/
 
 
 .exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
- .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6{
+ .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6, .btafGalleryRoom1{
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -260,6 +260,11 @@ for all 3 major nav pages*/
 
 .camcapGalleryRoom6{
   justify-content: space-around;
+}
+
+.btafGalleryRoom1{
+  justify-content: space-around;
+  width: 100%;
 }
 
 
@@ -599,11 +604,33 @@ for all 3 major nav pages*/
 } */
 
 .infoGraph{
-  width: 70%;
-  height: 170px;
+  margin-top: 13.5em;
+  margin-left: -8em;
+  width: 560px;
+  height: 185px;
   background-color: white;
+  border-radius: 1px;
 }
 
+.infoGraph h2{
+  margin: 0;
+  color: #FFAB40;
+  font-size: 1.1em;
+  text-align: center
+}
+
+.infoGraph h4{
+  margin: 0 0 5px 0;
+  color: #FFAB40;
+  font-size: .9em;
+  text-align: center;
+}
+
+.infoGraph p{
+  margin: 0 0 5px 0;
+  padding: 0 5px 0 5px;
+  font-size: .74em;
+}
 
 .singles {
   height: 100%;
