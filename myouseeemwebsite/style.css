@@ -196,7 +196,7 @@ li:nth-child(8){
     margin: -10px -10px -10px -10px;
 }
 
-.exhibitionsimage, .specialExhibitionsImage, .learnhistoryimage {
+.exhibitionsimage, .specialExhibitionsImage, .learnhistoryimage, .fashion {
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -215,6 +215,12 @@ for all 3 major nav pages*/
 .learnhistoryimage
 {
     background-image: url("./images/halls/right.png");
+}
+
+.fashion{
+  background-image: url("./images/fashion.jpg");
+  color: white;
+  position: absolute;
 }
 
 
@@ -411,152 +417,32 @@ for all 3 major nav pages*/
   transform: translateY(0);
 }
 
-
-/* .exhibitionsonesection {
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  width: 45%;
-} */
-
-/* .exhibitionsone {
-  height: 200px;
-  width: 12%;
-  padding: 2px;
-  opacity: .5;
-} */
-
-/* .exhibitionstwosection {
-  padding-left: 540px;
-  padding-top: 295px;
-  min-width: 1280px;
-  max-width: 1280px;
-} */
-
-/* .exhibitionstwo {
-  height: 200px;
-  width: 12%;
-  padding: 2px;
-  opacity: .5;
-} */
-
-/* .exhibitionsthreesection {
-  padding-left: 370px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-} */
-
-/* .exhibitionsthree {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
+.fashion h4{
+  font-size: 2em;
+  margin-top: 2.5em;
+  margin-bottom: -1em;
+  text-align: center;
 }
 
-.exhibitionsfoursection {
-  padding-left: 370px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
+.fashion h1{
+  font-size: 3em;
+  text-align: center;
 }
 
-.exhibitionsfour {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
+.fashion p{
+  font-size: 1.5em;
+  padding-left: 1em;
 }
 
-.exhibitionsfivesection {
-  padding-left: 530px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-.exhibitionsfive {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-}
-
-.exhibitionssixsection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-.exhibitionssix {
-  height: 200px;
-  width: 12%;
-  padding: 10px;
-  opacity: .5;
-} */
-
-/* .camcaponesection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-.camcapone, .camcaptwo, .camcapthree, .camcapfour, .camcapfive, .camcapsix, .camcapseven  {
-  height: 160px;
-  width: auto;
-  padding: 10px;
-}
-
-.camcaptwosection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-
-.camcapthreesection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-
-.camcapfoursection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
+.fashion button{
+  display: block;
+  margin: auto;
 }
 
 
 
-.camcapfivesection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
 
 
-.camcapsixsection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-
-
-.camcapsevensection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-} */
 
 
 .btafonesection {
@@ -572,45 +458,6 @@ for all 3 major nav pages*/
 }
 
 
-/* .btaftwosection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-
-.btafthreesection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-
-
-.btaffoursection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-
-.btaffivesection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-}
-
-
-.btafsixsection {
-  padding-left: 450px;
-  padding-top: 285px;
-  min-width: 1280px;
-  max-width: 1280px;
-} */
 
 .infoGraph{
   margin-top: 13.5em;
