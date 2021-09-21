@@ -327,7 +327,7 @@ for all 3 major nav pages*/
 /*THIS WILL BE REMOVED ONCE I ADD IMAGE*/
 
 
-.images, .imagesSpecialEx, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2 {
+.images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2 {
   height: 150px;
   width: auto;
   position: relative;
@@ -338,6 +338,11 @@ for all 3 major nav pages*/
 
 .imagesSpecialEx{
   left: 25em;
+}
+
+.imagesLearnHistory{
+  width: 100%;
+  left: 22.5em;
 }
 
 .imagesFirstGallery{
