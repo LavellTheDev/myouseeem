@@ -121,17 +121,17 @@ li:nth-child(8){
 }
 
 .hamburger{
-  width: 40%;
-  height: 500px;
+  width: 20%;
+  height: auto;
   position: absolute;
+  margin: 30px;
 }
 
 .hamburgerBars{
-  border: 2px solid black;
+  border: 3px solid black;
   border-radius: 10px;
-  width: 10%;
+  width: 20%;
   margin-bottom: 10px;
-
 }
 
 .aboutimage
