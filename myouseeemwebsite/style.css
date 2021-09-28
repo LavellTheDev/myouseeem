@@ -12,6 +12,10 @@ body{
   padding: 0;
 }
 
+a{
+  text-decoration: none;
+}
+
 .homeimage
 {
     display: flex;
@@ -128,10 +132,11 @@ li:nth-child(8){
 }
 
 .hamburgerBars{
-  border: 3px solid black;
+  border: 3.5px solid black;
   border-radius: 10px;
-  width: 20%;
-  margin-bottom: 10px;
+  box-shadow: 0 5px 5px #8859A9;
+  width: 18%;
+  margin-bottom: 5px;
 }
 
 .aboutimage
@@ -210,7 +215,7 @@ li:nth-child(8){
     margin: -10px -10px -10px -10px;
 }
 
-.exhibitionsimage, .specialExhibitionsImage, .learnhistoryimage, .fashion {
+.exhibitionsimage, .specialExhibitionsImage, .learnhistoryimage, .fashion, .learnhistoryInfoPage {
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -232,9 +237,37 @@ for all 3 major nav pages*/
 }
 
 .fashion{
-  background-image: url("./images/fashion.jpg");
-  color: white;
+  background: url("./images/fashion.jpg") rgba(0, 0, 0, 0.7);
+  background-size:cover;
+  background-blend-mode: multiply;
   position: absolute;
+}
+
+.learnhistoryInfoPage{
+  background: url("./images/lyh.jpg") rgba(0, 0, 0, 0.7);
+  background-size:cover;
+  background-blend-mode: multiply;
+  position: absolute;
+}
+
+.learnhistoryInfoPage h4, .learnhistoryInfoPage h1, .learnhistoryInfoPage p{
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.learnhistoryInfoPage h4{
+  margin-top: 5em;
+}
+
+.learnhistoryInfoPage p{
+  padding: 0 2em 0 2em;
+}
+
+.learnhistoryInfoPage button{
+  border: none;
+  display: block;
+  margin: 3em auto;
 }
 
 
@@ -306,11 +339,47 @@ for all 3 major nav pages*/
   margin: auto;
 }
 
+.card h2{
+  color: black;
+  font-size: .2em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card p{
+  color: black;
+  font-size: .15em;
+  margin: 0;
+}
+
+
 .cardPageTwo{
   width: 175px;
   height: 75px;
   margin-top: 3em;
 }
+
+
+
+.cardPageTwo p{
+  color: black;
+  font-size: .5em;
+  padding: 2px;
+  margin: 0;
+}
+
+.cardPageThree{
+  color: transparent;
+  height: 150px;
+  width: 175px;
+  margin-left: -0.5em;
+}
+
+.cardPageThree p{
+  color: black;
+  font-size: .7em;
+}
+
 
 .cardRbh{
   width: 225px;
@@ -341,7 +410,8 @@ for all 3 major nav pages*/
 /*THIS WILL BE REMOVED ONCE I ADD IMAGE*/
 
 
-.images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2 {
+.images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery,
+.imagesFifthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2 {
   height: 150px;
   width: auto;
   position: relative;
@@ -380,6 +450,17 @@ for all 3 major nav pages*/
 .imagesThirdGallery, .imagesFourthGallery{
   left: 21em;
   top: 13.5em;
+}
+
+.imagesFifthGallery{
+  height: auto;
+  width: 150px;
+  left: 20.5em;
+  top: 13.5em;
+}
+
+.imagesFifthGallery h2{
+  font-size: 1.5em;
 }
 
 .imagesSixthGallery{
@@ -458,27 +539,26 @@ for all 3 major nav pages*/
   margin-top: 2.5em;
   margin-bottom: -1em;
   text-align: center;
+  color: white;
 }
 
 .fashion h1{
   font-size: 3em;
   text-align: center;
+  color: white;
 }
 
 .fashion p{
   font-size: 1.5em;
   padding-left: 1em;
+  color: white;
 }
 
 .fashion button{
+  border: none;
   display: block;
   margin: auto;
 }
-
-
-
-
-
 
 
 .btafonesection {
@@ -565,4 +645,16 @@ for all 3 major nav pages*/
   font-size: 25px;
   color: white;
   padding: 10px;
+}
+
+@media query {
+
+}
+
+@media query {
+
+}
+
+@media query {
+
 }
