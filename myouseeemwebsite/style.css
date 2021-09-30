@@ -47,11 +47,7 @@ a{
   align-self: flex-end;
   padding-bottom: 1em;
 }
-/* .enter:active{
-  background-color: #9900FF;
-  box-shadow: 0 2px #666;
-  transform: translateY(1px);
-} */
+
 /*End of page enter button*/
 
 .menuimage
@@ -674,9 +670,27 @@ for all 3 major nav pages*/
   padding: 10px;
 }
 
-@media query {
+@media screen and (min-width: 812px) and (orientation: landscape) {
 
-}
+  .exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
+   .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6, .btafGalleryRoom1, .btafGalleryRoom2, .btafGalleryRoom6, .rbhGalleryRoom2{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 50%;
+  }
+
+  .images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery,
+  .imagesFifthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2 {
+    height: 120px;
+    width: auto;
+    position: relative;
+    top: 10.5em;
+    left: 8.5em;
+    text-align: center;
+  }
+  }
+
 
 @media query {
 
