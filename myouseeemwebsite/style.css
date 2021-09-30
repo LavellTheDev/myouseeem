@@ -387,6 +387,29 @@ for all 3 major nav pages*/
   margin-top: 1.8em;
 }
 
+.cardRbh h2{
+  color: black;
+  font-size: .8em;
+  font-weight: bold;
+  margin: 0;
+  text-align: left;
+}
+
+.cardRbh h4{
+  color: black;
+  font-size: .6em;
+  margin: 0;
+  text-align: left;
+}
+
+.cardRbh p{
+  color: black;
+  font-size: .7em;
+  margin-top: .25em;
+  text-align: left;
+}
+
+
 /*End of styling for exhibitionsonesection*/
 .exhibitionstwosection{
   width: 100%;
