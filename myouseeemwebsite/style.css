@@ -650,7 +650,20 @@ for all 3 major nav pages*/
 .singles {
   height: 100%;
   width: 100vw;
+  position: relative;
 }
+
+.singlesButton{
+  background: none;
+  border: none;
+  font-size: 2em;
+  float: right;
+  position: absolute;
+  z-index: 10;
+  left: 10%;
+  bottom: 90%;
+}
+
 
 .bottom-left {
   position: absolute;
@@ -670,25 +683,11 @@ for all 3 major nav pages*/
   padding: 10px;
 }
 
-@media screen and (min-width: 812px) and (orientation: landscape) {
+/*MEDIA QUERIES*/
 
-  .exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
-   .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6, .btafGalleryRoom1, .btafGalleryRoom2, .btafGalleryRoom6, .rbhGalleryRoom2{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    width: 50%;
-  }
 
-  .images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery, .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery,
-  .imagesFifthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2 {
-    height: 120px;
-    width: auto;
-    position: relative;
-    top: 10.5em;
-    left: 8.5em;
-    text-align: center;
-  }
+@media {
+
   }
 
 
