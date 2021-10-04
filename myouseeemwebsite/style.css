@@ -690,9 +690,17 @@ for all 3 major nav pages*/
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-      .images{
-        height: 90px;
+      .images, .imagesSpecialEx, .imagesLearnHistory{
+        height: 95px;
         top: 9em ;
         left: 8em ;
+      }
+
+      .imagesSpecialEx{
+        left: 16em;
+      }
+
+      .imagesLearnHistory{
+          left: 14.4em;
       }
 }
