@@ -703,4 +703,8 @@ for all 3 major nav pages*/
       .imagesLearnHistory{
           left: 14.4em;
       }
+
+      .hamburger{
+        width: 30%;
+      }
 }
