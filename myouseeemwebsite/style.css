@@ -690,10 +690,6 @@ for all 3 major nav pages*/
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
-      .exhibitionssection{
-
-      }
-
       .images{
         height: 90px;
         top: 9em ;
