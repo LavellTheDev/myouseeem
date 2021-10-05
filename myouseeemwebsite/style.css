@@ -796,5 +796,28 @@ for all 3 major nav pages*/
         font-size: .5em
       }
 
+      .rbhImagesRoom2{
+        height: 105px;
+        left: 13em;
+      }
+
+      .cardRbh{
+        height: 100px;
+        margin: 0;
+        width: 200px;
+      }
+
+      .cardRbh h2{
+        font-size: .7em;
+      }
+
+      .cardRbh h4{
+        font-size: .6em;
+      }
+
+      .cardRbh p{
+        font-size: .55em;
+      }
+
 
 }
