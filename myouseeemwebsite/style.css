@@ -683,6 +683,20 @@ for all 3 major nav pages*/
   padding: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*MEDIA QUERIES*/
 /*mobile*/
 
@@ -820,4 +834,143 @@ for all 3 major nav pages*/
       }
 
 
+
+
+
 }
+
+
+@media only screen
+  and (min-device-width: 813px)
+  and (max-device-width: 846px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+
+    .nav{
+        overflow-y: auto;
+    }
+
+
+    .images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery,
+    .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery,
+    .imagesFifthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2{
+      height: 100px;
+      top: 9.5em ;
+      left: 9.5em ;
+    }
+
+    .imagesSpecialEx{
+      left: 16em;
+    }
+
+    .imagesLearnHistory{
+        left: 14.4em;
+    }
+
+
+    .imagesFirstGallery{
+      left: 10em;
+    }
+
+    .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery{
+      left: 13.5em;
+    }
+
+    .imagesSixthGallery{
+      left: 15em;
+    }
+
+    .imagesSecondGallery h2{
+      font-size: 1.5em;
+      margin-top: 1em;
+    }
+
+    .cardPageTwo{
+        width: 150px;
+        height: 60px;
+        margin-top: 1em;
+    }
+
+    .cardPageTwo p{
+      font-size: 0.4em;
+    }
+
+    .imagesFifthGallery{
+      left: 13.5em;
+    }
+
+    .imagesFifthGallery h2{
+      font-size: .7em;
+    }
+
+    .cardPageThree{
+      width: 140px;
+      margin-left: 0.5em;
+    }
+
+    .cardPageThree p{
+      font-size: 0.4em;
+    }
+
+    .camcapImagesRoom4{
+      left: 13em;
+    }
+
+    .camcapImagesRoom6{
+      left: 12.5em;
+    }
+
+    .camcapImagesRoom7{
+      left: 21em;
+    }
+
+    .hamburger{
+      width: 30%;
+    }
+
+    .card{
+      display: none;
+    }
+
+    .infoGraph, .infoGraphbtaf{
+      margin-top: 8em;
+      margin-left: -6em;
+    }
+
+    .infoGraph, .infoGraphbtaf{
+      width: 400px;
+      height: 130px;
+    }
+
+    .infoGraph p{
+      font-size: .5em;
+    }
+
+    .infoGraphbtaf p{
+      font-size: .5em
+    }
+
+    .rbhImagesRoom2{
+      height: 105px;
+      left: 13em;
+    }
+
+    .cardRbh{
+      height: 100px;
+      margin: 0;
+      width: 200px;
+    }
+
+    .cardRbh h2{
+      font-size: .7em;
+    }
+
+    .cardRbh h4{
+      font-size: .6em;
+    }
+
+    .cardRbh p{
+      font-size: .55em;
+    }
+
+  }
