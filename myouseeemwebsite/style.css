@@ -342,7 +342,7 @@ for all 3 major nav pages*/
 .card, .cardPageTwo, .cardRbh{
   background-color: #fff;
   width: 50px;
-  height: 25px;
+  height: auto;
   margin: auto;
 }
 
@@ -705,7 +705,13 @@ for all 3 major nav pages*/
   padding: 10px;
 }
 
+.bottom-left:hover{
+  color: #8859A9;
+}
 
+.bottom-right:hover{
+  color: #8859A9;
+}
 
 
 
