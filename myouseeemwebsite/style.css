@@ -148,11 +148,35 @@ li:nth-child(8){
 
 .aboutimage
 {
+    background: rgb(149,149,149);
+    background: linear-gradient(180deg, rgba(149,149,149,1) 0%, rgba(209,209,209,1) 50%, rgba(219,219,219,1) 100%);
     height: 100vh;
     width: 100vw;
-    background-image: url("./images/3.png");
+    /* background-image: url("./images/slides/3.png");
     background-size: cover;
-    margin: -10px -10px -10px -10px;
+    margin: -10px -10px -10px -10px;  */
+}
+
+.aboutimage h2{
+  color: #FFF;
+  display: block;
+  font-size: 2em;
+  margin: auto;
+  padding-top: 60px;
+  text-align: center;
+}
+
+.aboutBorder{
+  background-color: #EEE;
+  height: auto;
+  margin: auto;
+  margin-top: 10px;
+  width: 75%;
+}
+
+.aboutBorder p{
+  font-size: 1.2em;
+  padding-left: 10px;
 }
 
 .playlistimage
@@ -609,13 +633,18 @@ for all 3 major nav pages*/
 
 
 
-.infoGraph, .infoGraphbtaf{
+.infoGraph, .infoGraphbtaf, .infoGraphAfro{
   margin-top: 13.5em;
   margin-left: -8em;
   width: 560px;
   height: 185px;
   background-color: white;
   border-radius: 1px;
+}
+
+
+.infoGraph, .infoGraphAfro{
+  color: #000;
 }
 
 .infoGraph h2{
@@ -638,6 +667,14 @@ for all 3 major nav pages*/
   font-size: .74em;
 }
 
+.infoGraphbtaf{
+  margin-left: 7.5em;
+}
+
+.infoGraphbtaf a{
+  color: #000;
+}
+
 .infoGraphbtaf h2{
   margin: 0;
   color: #9900FF;
@@ -657,6 +694,32 @@ for all 3 major nav pages*/
   padding: 0 5px 0 5px;
   font-size: .74em;
 }
+
+
+.infoGraphAfro h2{
+ margin: 0;
+ color: #3C78D8;
+ font-size: 1.1em;
+ text-align: center
+}
+
+.infoGraphAfro h4{
+  margin: 0 0 5px 0;
+  color: #3C78D8;
+  font-size: .9em;
+  text-align: center;
+}
+
+.infoGraphAfro p{
+  line-height: 1.5em;
+  margin: 0 0 5px 0;
+  padding: 0 5px 0 5px;
+  font-size: .74em;
+  text-align: center;
+}
+
+
+
 
 .singles {
   height: 100%;
@@ -736,6 +799,24 @@ for all 3 major nav pages*/
 
       .nav{
           overflow-y: auto;
+      }
+
+
+      .overlay{
+        opacity: 1;
+      }
+
+      .overlay > * {
+        transform: none;
+        transition: none;
+      }
+
+      .overlay:hover{
+        opacity: none;
+      }
+
+      .overlay:hover > * {
+        transform: none;
       }
 
 
@@ -878,6 +959,22 @@ for all 3 major nav pages*/
         overflow-y: auto;
     }
 
+    .overlay{
+      opacity: 1;
+    }
+
+    .overlay > * {
+      transform: none;
+      transition: none;
+    }
+
+    .overlay:hover{
+      opacity: none;
+    }
+
+    .overlay:hover > * {
+      transform: none;
+    }
 
     .images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery,
     .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery,
