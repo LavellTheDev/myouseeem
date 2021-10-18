@@ -288,17 +288,26 @@ for all 3 major nav pages*/
 }
 
 .learnhistoryInfoPage h4{
-  margin-top: 5em;
+  font-size: 1.5em;
+  padding-top: 2em;
+}
+
+.learnhistoryInfoPage h2{
+  font-size: 2em;
 }
 
 .learnhistoryInfoPage p{
+  font-size: 1.3em;
   padding: 0 2em 0 2em;
 }
 
 .learnhistoryInfoPage button{
   border: none;
   display: block;
+  font-size: 1.1em;
+  height: 50px;
   margin: 3em auto;
+  width: 150px;
 }
 
 
@@ -592,30 +601,37 @@ for all 3 major nav pages*/
   transform: translateY(0);
 }
 
+
+.fashion h4, .fashion h1, .fashion p{
+  color: white;
+  margin-top: 1em;
+  text-align: center;
+}
+
 .fashion h4{
-  font-size: 2em;
-  margin-top: 2.5em;
+  font-size: 1.5em;
+  padding-top: 2.5em;
   margin-bottom: -1em;
   text-align: center;
-  color: white;
 }
 
 .fashion h1{
-  font-size: 3em;
+  font-size: 2em;
   text-align: center;
-  color: white;
 }
 
 .fashion p{
-  font-size: 1.5em;
+  font-size: 1.3em;
   padding-left: 1em;
-  color: white;
 }
 
 .fashion button{
   border: none;
   display: block;
+  font-size: 1.1em;
+  height: 50px;
   margin: auto;
+  width: 150px;
 }
 
 
