@@ -111,8 +111,8 @@ label.fcf-label {
 }
 
 .fcf-btn:hover {
-    color: #212529;
-    text-decoration: none;
+  color: #212529;
+  text-decoration: none;
 }
 
 .fcf-btn:focus, .fcf-btn.focus {
