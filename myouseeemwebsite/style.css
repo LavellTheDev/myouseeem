@@ -302,14 +302,31 @@ for all 3 major nav pages*/
 }
 
 .learnhistoryInfoPage button{
-  border: none;
+  background-color: #9900FF;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
   display: block;
   font-size: 1.1em;
+  font-weight: 600;
   height: 50px;
-  margin: 3em auto;
+  margin: auto;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   width: 150px;
 }
 
+.learnhistoryInfoPage button:hover{
+  color: #fff;
+  background-color: #6E00B8;
+  text-decoration: none;
+}
+
+.learnhistoryInfoPage button:focus, .learnhistoryInfoPage button.focus{
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(147, 0, 255, 0.25);
+}
 
 .exhibitionssection, .exhibitionsonesection, .exhibitionstwosection,
  .exhibitionsthreesection, .specialExhibitionsSection, .firstGalleryRoom, .secondGalleryRoom, .sixthGalleryRoom, .camcapGalleryRoom1, .camcapGalleryRoom4, .camcapGalleryRoom6, .btafGalleryRoom1, .btafGalleryRoom2, .btafGalleryRoom6, .rbhGalleryRoom2{
