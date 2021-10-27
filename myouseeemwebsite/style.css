@@ -574,7 +574,24 @@ for all 3 major nav pages*/
   left: 23em;
 }
 
+/*NEXT GALLERY PREVIEW*/
+.nextGallery{
+display: inline-block;
+float: right;
+height: 150px;
+margin-top: 7em;
+overflow: hidden;
+}
 
+.nextGalleryContainer{
+  overflow: hidden;
+  width:75px;
+}
+
+.exhibitionsNextGallery{
+  width: 200px;
+  height: 200px;
+}
 
 
 
