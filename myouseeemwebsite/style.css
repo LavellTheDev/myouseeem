@@ -1,4 +1,4 @@
-html{
+righthtml{
   box-sizing: border-box;
 }
 *, *:before, *:after {
@@ -111,9 +111,19 @@ li:nth-child(1){
 li:nth-child(2){
   background-color: rgba(146,133,171, 0.7);
 }
+
+li:nth-child(2):hover{
+  background-color: rgba(170, 0, 255, 1);
+}
+
 li:nth-child(3){
   background-color: rgba(159,179,150,0.7);
 }
+
+li:nth-child(3):hover{
+  background-color: rgba(2, 89, 15, 1);
+}
+
 li:nth-child(4){
   background-color: rgba(222,196,181,0.7);
 }
@@ -574,8 +584,10 @@ for all 3 major nav pages*/
   left: 23em;
 }
 
-/*NEXT GALLERY PREVIEW*/
-.nextGallery{
+
+
+/*right GALLERY PREVIEW*/
+.rightGalleryPreview{
 display: inline-block;
 float: right;
 height: 150px;
@@ -583,15 +595,36 @@ margin-top: 7em;
 overflow: hidden;
 }
 
-.nextGalleryContainer{
+.rightGalleryContainer{
   overflow: hidden;
   width:75px;
 }
 
-.exhibitionsNextGallery{
+.exhibitionsRightGallery{
   width: 200px;
-  height: 200px;
+  height: auto;
 }
+/*End of Right Gallery*/
+
+
+/*Left Gallery Preview*/
+.leftGalleryPreview{
+display: inline-block;
+height: 150px;
+margin-top: 7em;
+overflow: hidden;
+}
+
+.leftGalleryContainer{
+  overflow: hidden;
+  width:75px;
+}
+
+.exhibitionsLeftGallery{
+  width: 200px;
+  height: auto;
+}
+/*End of Left Gallery*/
 
 
 
