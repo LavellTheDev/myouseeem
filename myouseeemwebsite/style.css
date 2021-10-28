@@ -587,12 +587,16 @@ for all 3 major nav pages*/
 
 
 /*right GALLERY PREVIEW*/
-.rightGalleryPreview{
+.rightGalleryPreview, .rightGalleryPreviewTwo{
 display: inline-block;
 float: right;
 height: 150px;
 margin-top: 7em;
 overflow: hidden;
+}
+
+.rightGalleryPreviewTwo{
+  margin-top: 5em;
 }
 
 .rightGalleryContainer{
@@ -608,11 +612,15 @@ overflow: hidden;
 
 
 /*Left Gallery Preview*/
-.leftGalleryPreview{
+.leftGalleryPreview, .leftGalleryPreviewTwo{
 display: inline-block;
 height: 150px;
 margin-top: 6.5em;
 overflow: hidden;
+}
+
+.leftGalleryPreviewTwo{
+  margin-top: 5em;
 }
 
 .leftGalleryContainer{
