@@ -587,7 +587,7 @@ for all 3 major nav pages*/
 
 
 /*right GALLERY PREVIEW*/
-.rightGalleryPreview, .rightGalleryPreviewTwo{
+.rightGalleryPreview, .rightGalleryPreviewTwo, .rightGalleryCard{
 display: inline-block;
 float: right;
 height: 150px;
@@ -599,14 +599,18 @@ overflow: hidden;
   margin-top: 5em;
 }
 
+.rightGalleryCard{
+  margin-top: -8.5em;
+}
+
 .rightGalleryContainer{
   overflow: hidden;
   width:75px;
 }
 
 .exhibitionsRightGallery{
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
 }
 /*End of Right Gallery*/
 
@@ -629,8 +633,8 @@ overflow: hidden;
 }
 
 .exhibitionsLeftGallery{
-  width: 200px;
-  height: auto;
+  width: auto;
+  height: 200px;
 }
 /*End of Left Gallery*/
 
