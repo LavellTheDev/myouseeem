@@ -156,7 +156,7 @@ li:nth-child(8){
   margin-bottom: 5px;
 }
 
-.aboutimage
+.aboutimage, .northAmericanMuseums
 {
     background: rgb(149,149,149);
     background: linear-gradient(180deg, rgba(149,149,149,1) 0%, rgba(209,209,209,1) 50%, rgba(219,219,219,1) 100%);
@@ -176,6 +176,27 @@ li:nth-child(8){
   text-align: center;
 }
 
+/*This is for the list of Museums*/
+.aboutimage button{
+  background-color: #9900FF;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+  color: white;
+  cursor: pointer;
+  display: block;
+  font-size: 1.1em;
+  font-weight: 600;
+  height: 50px;
+  margin: auto;
+  margin-top: 10em;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 250px;
+}
+
+
+
+/*This is for the list of Museums*/
 .aboutBorder{
   background-color: #EEE;
   height: auto;
@@ -188,6 +209,42 @@ li:nth-child(8){
   font-size: 1.2em;
   padding-left: 10px;
 }
+
+/*northAmericanMuseums*/
+ .northAmericanMuseums h2, .northAmericanMuseums h4{
+   color: white;
+   text-align: center;
+ }
+
+ .northAmericanMuseums h2{
+   font-size: 2em;
+   margin: 0;
+   padding-top: 25px;
+ }
+
+ .northAmericanMuseums h4{
+   margin-top: 0.5em;
+ }
+
+ .northAmericanMuseums ul{
+   list-style-type: none;
+ }
+
+.northAmericanMuseums li{
+  background-color: transparent;
+  margin-top: 1.2em; 
+}
+
+.northAmericanMuseums li:hover{
+  background-color: gray;
+  color: white;
+}
+
+ .northAmericanMuseums a{
+  color: black;
+ }
+
+/*end of northAmericanMuseums*/
 
 .playlistimage
 {
