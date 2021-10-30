@@ -127,17 +127,41 @@ li:nth-child(3):hover{
 li:nth-child(4){
   background-color: rgba(222,196,181,0.7);
 }
+
+li:nth-child(4):hover{
+  background-color: rgba(155,101,70,1);
+}
+
 li:nth-child(5){
   background-color: rgba(156,198,200,0.7);
 }
+
+li:nth-child(5):hover{
+  background-color: rgba(80,141,145,1);
+}
+
 li:nth-child(6){
   background-color: rgba(179,129,127,0.7);
 }
+
+li:nth-child(6):hover{
+  background-color: rgba(140,86,84,1);
+}
+
 li:nth-child(7){
   background-color: rgba(143,135,106,0.7);
 }
+
+li:nth-child(7):hover{
+  background-color: rgba(106,100,78,1);
+}
+
 li:nth-child(8){
   background-color: rgba(113,113,113,0.7);
+}
+
+li:nth-child(8):hover{
+  background-color: rgba(82,82,82,1);
 }
 
 .hamburger{
@@ -465,7 +489,7 @@ for all 3 major nav pages*/
 
 
 /*This will be added to all pages, just a test*/
-.card, .cardPageTwo, .cardRbh{
+.card, .cardPageTwo, .cardRbh, .cardRbhAncestors{
   background-color: #fff;
   width: 50px;
   height: auto;
@@ -514,13 +538,19 @@ for all 3 major nav pages*/
 }
 
 
+.cardRbhAncestors{
+  width: 225px;
+  height: 80px;
+  margin-top: 2.4em;
+}
+
 .cardRbh{
   width: 225px;
   height: 120px;
   margin-top: 1.8em;
 }
 
-.cardRbh h2{
+.cardRbh h2, .cardRbhAncestors h2{
   color: black;
   font-size: .8em;
   margin: 0;
@@ -528,7 +558,7 @@ for all 3 major nav pages*/
   text-align: left;
 }
 
-.cardRbh h4{
+.cardRbh h4, .cardRbhAncestors h4{
   color: black;
   font-size: .7em;
   font-weight: lighter;
@@ -538,7 +568,7 @@ for all 3 major nav pages*/
   text-align: left;
 }
 
-.cardRbh p{
+.cardRbh p, .cardRbhAncestors p{
   color: black;
   font-size: .6em;
   margin-top: 0.2em;
