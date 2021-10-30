@@ -1177,6 +1177,10 @@ overflow: hidden;
       transition: none;
     }
 
+    .overlayText{
+      font-size: 1rem;
+    }
+
     .overlay:hover{
       opacity: none;
     }
