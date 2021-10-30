@@ -180,7 +180,7 @@ li:nth-child(8):hover{
   margin-bottom: 5px;
 }
 
-.aboutimage, .northAmericanMuseums
+.aboutimage, .northAmericanMuseums, .museumImage
 {
     background: rgb(149,149,149);
     background: linear-gradient(180deg, rgba(149,149,149,1) 0%, rgba(209,209,209,1) 50%, rgba(219,219,219,1) 100%);
@@ -191,7 +191,7 @@ li:nth-child(8):hover{
     margin: -10px -10px -10px -10px;  */
 }
 
-.aboutimage h2{
+.aboutimage h2, .museumImage h2{
   color: #FFF;
   display: block;
   font-size: 2em;
@@ -201,7 +201,7 @@ li:nth-child(8):hover{
 }
 
 /*This is for the list of Museums*/
-.aboutimage button{
+.aboutimage button, .museumImage button{
   background-color: #9900FF;
   border: 1px solid transparent;
   border-radius: 0.25rem;
@@ -1198,6 +1198,7 @@ overflow: hidden;
       transform: none;
     }
 
+
     .images, .imagesSpecialEx, .imagesLearnHistory, .imagesFirstGallery,
     .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery,
     .imagesFifthGallery, .imagesSixthGallery, .camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7, .rbhImagesRoom2{
@@ -1223,6 +1224,10 @@ overflow: hidden;
       left: 13.5em;
     }
 
+    .imagesThirdGallery{
+      left: 15.5em;
+    }
+
     .imagesSixthGallery{
       left: 15em;
     }
@@ -1230,6 +1235,75 @@ overflow: hidden;
     .imagesSecondGallery h2{
       font-size: 1.5em;
       margin-top: 1em;
+    }
+
+
+    .exhibitionsRightGallery {
+        width: auto;
+        height: 110px;
+    }
+
+    .rightGalleryPreview, .rightGalleryPreviewTwo {
+        margin-top: 4em;
+    }
+
+    .rightGalleryCard{
+      margin-top: -6em;
+    }
+
+    .rightGalleryContainer{
+      width: 50px;
+    }
+
+    .exhibitionsLeftGallery{
+      width: auto;
+      height: 110px;
+    }
+
+    .leftGalleryPreview, .leftGalleryPreviewTwo {
+      margin-top: 4em;
+    }
+
+    .leftGalleryContainer{
+      width: 50px;
+    }
+
+
+    .learnhistoryInfoPage h4 {
+        font-size: 1em;
+        padding-top: 1em;
+        margin-bottom: 0;
+    }
+
+    .learnhistoryInfoPage h1{
+      font-size: 1.2em;
+    }
+
+    .learnhistoryInfoPage p{
+      font-size: 0.9em;
+    }
+
+    .learnhistoryInfoPage button{
+      height: 40px;
+      width: 125px;
+    }
+
+    .fashion h4{
+      font-size: 1em;
+    }
+
+    .fashion h1{
+      font-size: 1.2em;
+      padding-top: 1em;
+    }
+
+    .fashion p{
+      font-size: 0.9em;
+    }
+
+    .fashion button{
+      height: 40px;
+      width: 125px;
     }
 
     .cardPageTwo{
@@ -1279,17 +1353,21 @@ overflow: hidden;
       display: none;
     }
 
-    .infoGraph, .infoGraphbtaf{
-      margin-top: 8em;
+    .infoGraph, .infoGraphbtaf, .infoGraphAfro{
+      margin-top: 8.5em;
       margin-left: -6em;
     }
 
-    .infoGraph, .infoGraphbtaf{
+    .infoGraphbtaf{
+      margin-left: 4em;
+    }
+
+    .infoGraph, .infoGraphbtaf, .infoGraphAfro{
       width: 400px;
       height: 130px;
     }
 
-    .infoGraph p{
+    .infoGraph p, .infoGraphAfro p{
       font-size: .5em;
     }
 
@@ -1299,7 +1377,7 @@ overflow: hidden;
 
     .rbhImagesRoom2{
       height: 105px;
-      left: 13em;
+      left: 15em;
     }
 
     .cardRbh{
@@ -1318,6 +1396,41 @@ overflow: hidden;
 
     .cardRbh p{
       font-size: .55em;
+    }
+
+    .cardRbhAncestors{
+      margin-top: 1em;
+    }
+
+    .northAmericanMuseums{
+      min-height: 100vh;
+      height: 100%;
+    }
+
+    .northAmericanMuseums ul{
+      font-size: 0.8em;
+    }
+
+    .aboutimage, .museumImage{
+      min-height: 100vh;
+      height: 100%;
+    }
+
+    .aboutimage h2, .museumImage h2{
+      padding-top: 30px;
+    }
+
+    .aboutimage button, {
+      font-size: 1em;
+      width: 150px;
+    }
+
+    .museumImage button{
+      margin-top: 5em;
+    }
+
+    .aboutBorder p{
+      font-size: .8em;
     }
 
   }
