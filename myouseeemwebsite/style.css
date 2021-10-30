@@ -936,6 +936,15 @@ overflow: hidden;
   position: relative;
 }
 
+.singlesRbh{
+  display: block;
+  height: auto;
+  margin: auto;
+  width: 50%;
+  position: relative;
+  top: 15px;
+}
+
 .singlesButton{
   background: none;
   border: none;
