@@ -42,12 +42,16 @@
         </a></li>
       </ul>
 
-      <a href="museumsfive.html">
-        <button class="viewmuseums" type="button" name="button">Next</button>
-      </a>
+      <div class="museumButton">
+          <button onclick="goBack()">Go Back</button>
+
+        <a href="museumsfive.html">
+          <button class="viewmuseums" type="button" name="button">Next</button>
+        </a>
+
+      </div>
 
 
-      <button onclick="goBack()">Go Back</button>
       <script>
       function goBack() {
       window.history.back();

@@ -17,7 +17,7 @@
           <div class="hamburgerBars"></div>
       </div>
     </a>
-    
+
     <section class="northAmericanMuseums">
       <h2>Museums to Visit</h2>
       <h4>in North America</h4>
@@ -34,17 +34,22 @@
         <li><a href="#">African American Museum of the Arts (DeLand, Florida)</a></li>
       </ul>
 
-      <a href="museumstwo.html">
-        <button class="viewmuseums" type="button" name="button">Next</button>
-      </a>
 
+      <div class="museumButton">
+          <button onclick="goBack()">Go Back</button>
 
-      <button onclick="goBack()">Go Back</button>
+        <a href="museumstwo.html">
+          <button class="viewmuseums" type="button" name="button">Next</button>
+        </a>
+
+      </div>
+
       <script>
       function goBack() {
       window.history.back();
       }
       </script>
+
     </section>
   </body>
 </html>

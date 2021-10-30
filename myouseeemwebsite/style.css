@@ -248,6 +248,11 @@ li:nth-child(8){
   display: inline-block;
   margin: auto;
 }
+
+.museumButton{
+  margin-left: 50%;
+}
+
 /*end of northAmericanMuseums*/
 
 .playlistimage
