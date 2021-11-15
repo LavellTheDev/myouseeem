@@ -297,6 +297,12 @@ li:nth-child(8):hover{
     margin: -10px -10px -10px -10px;
 }
 
+.mapSVG{
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+}
+
 
 .museumsoneimage{
     height: 100vh;
