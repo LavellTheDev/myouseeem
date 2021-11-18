@@ -297,16 +297,16 @@ li:nth-child(8):hover{
     margin: -10px -10px -10px -10px;
 }
 
-.mapSVG{
-  height: 100vh;
-  position: absolute;
-  width: 100%;
+svg path{
+  fill: #363636;
+  stroke: #eee;
+  stroke-width: .25px;
 }
 
-.mapSVG path{
-  fill: red; 
+svg path:hover{
+  fill: #AA00FF;
+  transition: 0.6s;
 }
-
 
 .museumsoneimage{
     height: 100vh;
