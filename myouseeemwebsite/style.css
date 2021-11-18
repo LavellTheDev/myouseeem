@@ -306,6 +306,7 @@ svg path{
 svg path:hover{
   fill: #AA00FF;
   transition: 0.6s;
+  cursor: pointer;
 }
 
 .museumsoneimage{
