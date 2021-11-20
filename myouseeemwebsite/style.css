@@ -309,6 +309,10 @@ svg path:hover{
   cursor: pointer;
 }
 
+.UnitedStates:hover{
+  fill: green;
+}
+
 .museumsoneimage{
     height: 100vh;
     width: 100vw;
