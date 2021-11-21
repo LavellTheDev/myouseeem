@@ -309,7 +309,7 @@ svg path:hover{
   cursor: pointer;
 }
 
-.UnitedStates:hover{
+.UnitedStatesWhole:hover{
   fill: green;
 }
 
