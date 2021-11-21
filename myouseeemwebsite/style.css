@@ -299,8 +299,8 @@ li:nth-child(8):hover{
 
 svg path{
   fill: #363636;
-  stroke: #eee;
-  stroke-width: .25px;
+  /* stroke: #eee;
+  stroke-width: .25px; */
 }
 
 svg path:hover{
@@ -309,9 +309,6 @@ svg path:hover{
   cursor: pointer;
 }
 
-.UnitedStatesWhole:hover{
-  fill: green;
-}
 
 .museumsoneimage{
     height: 100vh;
