@@ -1040,6 +1040,14 @@ overflow: hidden;
     top: 18em;
     left: 20em;
   }
+
+.exhibitionsLeftGallery{
+  display: none;
+}
+
+.exhibitionsRightGallery{
+  display: none;
+}
 }
 
 
@@ -1136,7 +1144,7 @@ overflow: hidden;
     }
 
     .imagesThirdGallery{
-      left: 15.5em;
+      left: 14.5em;
     }
 
     .imagesSixthGallery{
@@ -1230,6 +1238,8 @@ overflow: hidden;
     .imagesFifthGallery{
       left: 13.5em;
     }
+
+
 
     .imagesFifthGallery h2{
       font-size: .7em;
