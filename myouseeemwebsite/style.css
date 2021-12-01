@@ -1045,6 +1045,7 @@ overflow: hidden;
  }
 
 #warning-message{
+  background-color: black;
   color: red;
   padding: 10px;
   font-size: 2rem;
