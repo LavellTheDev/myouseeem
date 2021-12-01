@@ -1034,6 +1034,23 @@ overflow: hidden;
 /*MEDIA QUERIES*/
 /*mobile*/
 
+
+#warning-message { display: none; }
+ @media only screen and (orientation:portrait){
+     #wrapper { display:none; }
+     #warning-message { display:block; }
+ }
+ @media only screen and (orientation:landscape){
+     #warning-message { display:none; }
+ }
+
+#warning-message{
+  color: red;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
+}
+
 @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
