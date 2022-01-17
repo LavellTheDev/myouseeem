@@ -1032,6 +1032,17 @@ overflow: hidden;
 
 
 /*MEDIA QUERIES*/
+
+/*Desktop & Laptop*/
+
+@media  (min-width: 1281px) {
+  .images{
+    top: 18em;
+    left: 20em;
+  }
+}
+
+
 /*mobile*/
 
 
@@ -1061,7 +1072,6 @@ overflow: hidden;
 #warning-message h2{
     color: #000;
 }
-
 
 
 @media only screen
