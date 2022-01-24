@@ -1036,10 +1036,24 @@ overflow: hidden;
 /*Desktop & Laptop*/
 
 @media  (min-width: 1281px) {
-  .images{
+  .images, .imagesFirstGallery{
     top: 18em;
     left: 20em;
   }
+
+  .imagesFirstGallery{
+    top: 17.5em;
+  }
+
+  .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesFifthGallery, .imagesSixthGallery{
+    top:17.5em;
+    left: 27em;
+  }
+
+  .imagesFifthGallery{
+    top: 17em;
+  }
+
 
 .exhibitionsLeftGallery{
   display: none;
@@ -1048,6 +1062,27 @@ overflow: hidden;
 .exhibitionsRightGallery{
   display: none;
 }
+
+.camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7{
+  left: 26.2em;
+  top: 17.5em;
+}
+
+.camcapImagesRoom7{
+  left: 40em;
+}
+
+.imagesSpecialEx{
+  top: 18em;
+  left: 31em;
+}
+
+.imagesLearnHistory{
+  top: 18em;
+  left: 29.5em;
+}
+
+
 }
 
 
