@@ -1050,6 +1050,10 @@ overflow: hidden;
     left: 27em;
   }
 
+.imagesThirdGallery{
+  top: 18.5em;
+}
+
   .imagesFifthGallery{
     top: 17em;
   }
@@ -1081,6 +1085,14 @@ overflow: hidden;
   top: 18em;
   left: 31em;
 }
+
+.rbhImagesRoom2{
+
+top: 18em;
+left: 30em;
+
+}
+
 
 .infoGraph{
   margin-top: 17.5em;
@@ -1088,7 +1100,8 @@ overflow: hidden;
 }
 
 .infoGraphAfro{
-
+  margin-top: 18em;
+  margin-left: -3em;
 }
 
 .infoGraphbtaf{
@@ -1103,7 +1116,9 @@ overflow: hidden;
 }
 
 
-
+.learnhistoryInfoPage h4{
+  padding-top: 4.5em;
+}
 
 
 .aboutimage h2{
@@ -1111,21 +1126,25 @@ overflow: hidden;
 }
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
+ @media (min-width: 1025px) and (max-width: 1250px) {
   
   .images, .imagesFirstGallery{
-    top: 18em;
-    left: 20em;
+    top: 14em;
+    left: 14em;
   }
 
   .imagesFirstGallery{
-    top: 17.5em;
+    top: 14em;
   }
 
   .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesFifthGallery, .imagesSixthGallery{
-    top:17.5em;
-    left: 27em;
+    top:14em;
+    left: 14em;
   }
+
+.imagesThirdGallery{
+  top: 18.5em;
+}
 
   .imagesFifthGallery{
     top: 17em;
@@ -1155,8 +1174,26 @@ overflow: hidden;
 }
 
 .imagesSpecialEx{
-  top: 18em;
-  left: 31em;
+  top: 14em;
+  left: 25em;
+}
+
+.rbhImagesRoom2{
+
+top: 18em;
+left: 30em;
+
+}
+
+
+.infoGraph{
+  margin-top: 17.5em;
+  margin-left: 0em;
+}
+
+.infoGraphAfro{
+  margin-top: 18em;
+  margin-left: -3em;
 }
 
 .infoGraphbtaf{
@@ -1166,19 +1203,21 @@ overflow: hidden;
 
 
 .imagesLearnHistory{
-  top: 18em;
-  left: 29.5em;
+  top: 14em;
+  left: 22em;
 }
 
 
-
+.learnhistoryInfoPage h4{
+  padding-top: 4.5em;
+}
 
 
 .aboutimage h2{
   padding-top: 4.5em;
 }
   
-}
+} 
 
 
 /*mobile*/
