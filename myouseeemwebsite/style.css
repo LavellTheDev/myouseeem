@@ -911,14 +911,14 @@ overflow: hidden;
 
 .infoGraphbtaf h2{
   margin: 0;
-  color: #9900FF;
+  color: #bf9000;
   font-size: 1.1em;
   text-align: center;
 }
 
 .infoGraphbtaf h4{
   margin: 0 0 5px 0;
-  color: #9900FF;
+  color: #bf9000;
   font-size: .9em;
   text-align: center;
 }
@@ -1072,10 +1072,30 @@ overflow: hidden;
   left: 40em;
 }
 
+
+.fashion h4{
+  padding-top: 4.5em;
+}
+
 .imagesSpecialEx{
   top: 18em;
   left: 31em;
 }
+
+.infoGraph{
+  margin-top: 17.5em;
+  margin-left: 0em;
+}
+
+.infoGraphAfro{
+
+}
+
+.infoGraphbtaf{
+  margin-top: 16.5em;
+  margin-left: 14em;
+}
+
 
 .imagesLearnHistory{
   top: 18em;
@@ -1083,6 +1103,81 @@ overflow: hidden;
 }
 
 
+
+
+
+.aboutimage h2{
+  padding-top: 4.5em;
+}
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .images, .imagesFirstGallery{
+    top: 18em;
+    left: 20em;
+  }
+
+  .imagesFirstGallery{
+    top: 17.5em;
+  }
+
+  .imagesSecondGallery, .imagesThirdGallery, .imagesFourthGallery, .imagesFifthGallery, .imagesSixthGallery{
+    top:17.5em;
+    left: 27em;
+  }
+
+  .imagesFifthGallery{
+    top: 17em;
+  }
+
+
+.exhibitionsLeftGallery{
+  display: none;
+}
+
+.exhibitionsRightGallery{
+  display: none;
+}
+
+.camcapImagesRoom4, .camcapImagesRoom6, .camcapImagesRoom7{
+  left: 26.2em;
+  top: 17.5em;
+}
+
+.camcapImagesRoom7{
+  left: 40em;
+}
+
+
+.fashion h4{
+  padding-top: 4.5em;
+}
+
+.imagesSpecialEx{
+  top: 18em;
+  left: 31em;
+}
+
+.infoGraphbtaf{
+  margin-top: 16.5em;
+  margin-left: 14em;
+}
+
+
+.imagesLearnHistory{
+  top: 18em;
+  left: 29.5em;
+}
+
+
+
+
+
+.aboutimage h2{
+  padding-top: 4.5em;
+}
+  
 }
 
 
